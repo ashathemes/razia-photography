@@ -1,0 +1,208 @@
+.right-part {
+    padding-right: 30px;
+}
+.site-title a {
+    font-size: 21px;
+}
+.widget-area {
+    padding-top: 30px;
+}
+.widget {
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+.widget h2 {
+    border-bottom: 0px solid #ddd;
+    padding-bottom: 0px;
+}
+.entry-footer {
+    margin-top: 15px;
+}
+pre {
+    background: #fff;
+    padding: 10px;
+}
+article.post {
+    margin-bottom: 30px;
+    background-color: transparent; 
+    box-shadow: 0px 0px 0px rgba(0,0,0,.07);
+    border: 0px solid #ddd;
+}
+h1.entry-title {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.cat-button a {
+    padding: 13px 35px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 5px;
+}
+.cat-button a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+.post-content {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+}
+.entry-meta-top {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+.blog-button {
+    margin-top: 30px;
+}
+.blog-button a {
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.blog-button a:hover {
+    background-color: #ddd;
+    transition: 0.5s;
+}
+.page-links {
+    margin-top: 30px;
+}
+h1,h2,h3,h4,h5,h6 {
+  overflow-wrap: break-word;
+      -ms-word-break: break-word;
+      word-break: break-word;
+}
+.nav-links a {
+    overflow-wrap: break-word;
+    -ms-word-break: break-word;
+    word-break: break-word;
+}
+.single-work-box{
+     display: block;
+     margin-bottom: 30px;
+}
+.work-box-bg{
+     position: relative;
+     height: 350px;
+     background-color: #333;
+     background-size: cover;
+     background-position: center;
+     z-index: 1;
+}
+.work-box-bg:after{
+     background-color: #333;
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+     z-index: -1;
+     visibility: hidden;
+     transition: 0.5s;
+}
+.single-work-box:hover .work-box-bg:after{
+     opacity: 0.5;
+     visibility: visible;
+}
+.work-box-bg i{
+     width: 40px;
+     height: 40px;
+     background-color: #fff;
+     color: #333;
+     line-height: 40px;
+     font-size: 16px;
+     text-align: center;
+     border-radius: 50%;
+     left: 50%;
+     top: 50%;
+     margin-left: -20px;
+     margin-top: -20px;
+     position: absolute;
+     opacity: 0;
+     visibility: hidden;
+     transition: 0.5s;
+}
+ .single-work-box:hover .work-box-bg i{
+     opacity: 1;
+     visibility: visible;
+}
+ .single-work-box .work-box-bg i:hover {
+     background-color: #333;
+     color: #fff;
+}
+.razia-project-shorting{
+     margin-left: 0px;
+     padding: 0;
+     list-style: none;
+}
+ul.razia-project-shorting{
+     margin-bottom: 50px;
+}
+.razia-project-shorting li{
+     display: inline-block;
+     margin-right: 20px;
+     cursor: pointer;
+     text-transform: uppercase;
+     transition: 0.5s;
+}
+.razia-project-shorting li.active{
+    position: relative;
+}
+.razia-project-shorting li.active:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-color: #333;
+    width: 100%;
+    height: 1px;
+}
+.project .post-content {
+    padding: 0px;
+}
+/*========================================================== 
+    Responsive
+============================================================*/
+/*========================================================== 
+    Desktop Layout: 950px
+============================================================*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .bannar-content {
+    
+}
+/*========================================================== 
+    Tablet Layout: 768px
+============================================================*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+/*========================================================== 
+   Wide Mobile Layout
+============================================================*/
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+@media (min-width: 481px) and (max-width: 600px) {
+    
+  
+}
+/*========================================================== 
+    Mobile Layout
+============================================================*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
